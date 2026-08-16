@@ -1,0 +1,7 @@
+env_id: HalfCheetah-v5
+device: cpu
+cuda: false
+use_custom_mlp_extractor: true
+actor_backbone_type: lan
+critic_backbone_type: lan
+enable_grid_updates: true

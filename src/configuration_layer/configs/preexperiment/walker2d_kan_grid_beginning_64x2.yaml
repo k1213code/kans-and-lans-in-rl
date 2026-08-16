@@ -1,0 +1,14 @@
+env_id: Walker2d-v5
+device: cpu
+actor_hidden_size: 64
+actor_num_hidden_layers: 2
+critic_hidden_size: 64
+critic_num_hidden_layers: 2
+use_custom_mlp_extractor: true
+actor_backbone_type: kan
+critic_backbone_type: kan
+enable_grid_updates: true
+grid_update_every: 100
+grid_update_until: 30000
+output_root: src/output_layer/outputs
+

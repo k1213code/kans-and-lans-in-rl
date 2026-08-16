@@ -1,0 +1,24 @@
+﻿name: kan_rl_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --index-url=https://download.pytorch.org/whl/cpu
+      - --extra-index-url=https://pypi.org/simple
+      - torch==2.5.1+cpu
+      - stable-baselines3==2.6.0
+      - gymnasium[mujoco]==1.1.1
+      - mujoco==2.3.3
+      - numpy==2.2.6
+      - pandas==2.2.3
+      - matplotlib==3.10.1
+      - PyYAML==6.0.2
+      - psutil==7.0.0
+      - tensorboard==2.20.0
+      - torchinfo
+      - torchview
+      - rich
+      - tqdm
+      - pytest

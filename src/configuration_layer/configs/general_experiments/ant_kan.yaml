@@ -1,0 +1,9 @@
+env_id: Ant-v5
+device: cpu
+cuda: false
+use_custom_mlp_extractor: true
+actor_backbone_type: kan
+critic_backbone_type: kan
+enable_grid_updates: true
+
+

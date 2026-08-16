@@ -1,0 +1,11 @@
+env_id: Walker2d-v5
+device: cpu
+actor_hidden_size: 64
+actor_num_hidden_layers: 2
+critic_hidden_size: 64
+critic_num_hidden_layers: 2
+use_custom_mlp_extractor: false
+actor_backbone_type: mlp
+critic_backbone_type: mlp
+output_root: src/output_layer/outputs
+
